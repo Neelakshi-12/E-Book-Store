@@ -1,0 +1,81 @@
+
+
+.jumbotron {
+background-image: linear-gradient(to right,#E5B469,#905E11);
+color: #000;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #000;
+}
+.h1 small {
+font-size: 24px;
+}
+.btn-primary{
+box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right,#E5B469,#905E11);
+}
+#banner{
+	background-image: linear-gradient(to right,#F9CA7C,#D19D48);
+	color: #000 !important;
+	padding-top: 1px;
+	}
+.img-fluid {
+    width: 100px;
+    height: 100px;
+
+}
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#contact{
+    background-image: linear-gradient(to right,#F9CA7C,#D19D48);
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+.head{
+	width: 200px;
+    height: 80px;
+    padding-top: 31px
+}
+
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+.google-maps{
+        position: relative;
+        padding-bottom: 43%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 600px !important;
+        height: 450px !important;
+}
+/*.........................social icons................*/
+
+.social-icons img{
+	width: 60px;
+	transition:0.5s;
+	display: inline-block;
+}
+.social-icons a:hover img{
+	transform: translateX(-10px);
+
+}
